@@ -1,4 +1,4 @@
-package com.dff.weixin.servlet;
+package com.weixin.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.dff.weixin.util.SignUtil;
+import com.weixin.util.SignUtil;
 
 //将servlet写进web文件
 public class CoreServlet extends HttpServlet {

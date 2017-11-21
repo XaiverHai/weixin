@@ -1,4 +1,4 @@
-package com.dff.weixin.util;
+package com.weixin.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -8,7 +8,7 @@ public class SignUtil {
 	/*
 	 * 检测传过来的数值
 	 */
-	private static String token = "dff";
+	private static String token = "lanyou";
 	private static String toStr;
 
 	public static boolean checkSignature(String signature, String timestamp, String nonce) {
